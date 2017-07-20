@@ -80,8 +80,8 @@ public class Main {
                 logger.error("Press 8 Run Watch directory...");
 
             }
-            System.out.println("Enter exit to close the program or pres any key to continue...");
-            logger.info("Enter exit to close the program or pres any key to continue...");
+            System.out.println("Press any key to continue...");
+            logger.info("Press any key to continue...");
             status = in.next();
         }
     }

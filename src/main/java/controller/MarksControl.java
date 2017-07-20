@@ -103,7 +103,7 @@ public class MarksControl {
         System.out.println("Enter student id to update marks: ");
 
         id = in.nextInt();
-
+        Marks marks=new Marks();
         System.out.println("Enter marks for sub 1: ");
         marks.setMarks1( in.nextInt());
         System.out.println("Enter marks for sub 2: ");
@@ -128,6 +128,7 @@ public class MarksControl {
     public void deletestudentmarks() {
         System.out.println("Enter student id to Delete marks");
         id = in.nextInt();
+        Marks marks=new Marks();
         marks.setId(id);
         try {
             result = marksRepository.deletestudentMarks(marks);
